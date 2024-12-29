@@ -1,0 +1,38 @@
+# Ignore logs
+logs/*
+
+# Ignore data directories
+data/input/*
+data/processed/*
+data/error/*
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+*.iws
+
+# Ignore Scala-specific and build files
+/target/
+/out/
+/project/target/
+/project/project/
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary and system files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.~*
+
+# Ignore IDE-generated and unnecessary files
+*.class
+*.log
+*.cache
+*.settings/
+*.classpath
+*.project
+.vscode/
